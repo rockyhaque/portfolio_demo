@@ -1,0 +1,64 @@
+/* Mobile Devices  */
+
+@media screen and (max-width: 576px) {
+    .header{
+        background-image: none;
+    }
+
+    nav,
+    nav > ul,
+    .banner,
+    .skill_container, 
+    .resume_container,
+    .about_info_container{
+        flex-direction: column;
+    }
+
+    nav > ul{
+        gap: 10px;
+    }
+
+    .banner,
+    #what_i_do_description{
+        padding: 20px;
+    }
+
+    footer, .about{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .btn_primary{
+        margin-bottom: 15px;
+    }
+
+    .footer_column{
+        width: 100%;
+    }
+
+    .banner .profile_pic{
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea{
+    width: 80%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px){
+    footer{
+        padding: 30px;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea{
+    width: 92%;
+    }
+
+    .btn_primary{
+        margin-bottom: 15px;
+    }
+}
